@@ -51,3 +51,10 @@ Every email comes from a named person, not a faceless team. End every email, for
 Kind regards,
 {{sender_name}}
 Founder, Averon Labs
+
+## 6. Spelling and style
+
+- Use UK English spelling in every email, for every market: enquiry, personalised, organise, programme.
+- Keep spelling the same across all group and market versions of an email.
+- Write as "we" for the company. Keep "I" for the sender's own sign-off and personal asides only.
+- Don't use contractions in email body copy (write "cannot", "it is"). The fixed footer line is the only exception.

@@ -3,7 +3,7 @@ Preview: A fixed scope, a fixed timeline and a live system your team uses every 
 
 Hi {{first_name}},
 
-Most founders we speak to have seen an impressive AI demo. Very few have AI running in their daily operations.
+Many founders have seen an impressive AI demo. Very few have AI running in their daily operations.
 
 The 30-Day AI Deployment closes that gap.
 

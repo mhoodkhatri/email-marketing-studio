@@ -1,11 +1,11 @@
 Subject: Pick one thing to fix first in January
-Preview: A short call now, so your first deployment can start when the new year does.
+Preview: One short call, so your first deployment can start in the new year.
 
 Hi {{first_name}},
 
 Before the year ends, one question: which part of your week would you most like to stop doing by hand?
 
-For most founders we speak to, it is one of these:
+For many founders, it is one of these:
 
 - replying to enquiries outside working hours
 - booking, rescheduling and reminding
@@ -14,9 +14,9 @@ For most founders we speak to, it is one of these:
 
 The 30-Day AI Deployment works on one of them. In 30 days, it becomes a live system your team uses every day, measured against a baseline we agree together.
 
-If you book a discovery call now, we can map the workflow and agree the success metrics, ready to start building in January. Investment is shared after that call, once we understand the scope.
+If you book a discovery call, we can map the workflow and agree the success metrics together. That way, building could start in January. Investment is shared after that call, once we understand the scope.
 
-There is no rush. Choose any date that suits you, before or after the holidays.
+There is no rush. Choose any date that suits you, before or after the new year.
 
 [Book a discovery call](https://averonlabs.example/30-day-deployment)
 

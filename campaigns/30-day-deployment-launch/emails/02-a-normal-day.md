@@ -3,15 +3,17 @@ Preview: Enquiries answered overnight, a morning summary, and follow-ups on time
 
 Hi {{first_name}},
 
-Last week I introduced the 30-Day AI Deployment. This week, here is what it changes on an ordinary day in your business.
+Last week we introduced the 30-Day AI Deployment. It runs in four steps: Discover in week 1, Build in weeks 2 and 3, Deploy in week 4 and Prove on Day 30.
 
-- **Overnight:** enquiries no longer wait until morning. Each one gets a reply within minutes, and is qualified and logged.
+This week, here is what a normal day can look like once it is live.
+
+- **Overnight:** enquiries no longer wait until morning. Each one can get a reply within minutes, and is qualified and logged.
 - **Morning:** your team starts with a ready summary of new leads, bookings and anything urgent, instead of an hour of inbox clearing.
 - **Daytime:** routine questions are handled for you, so your people can focus on the customers who need a person.
-- **Follow-up:** every lead and customer is followed up on time, without anyone having to remember.
+- **Follow-up:** leads and customers are followed up on time, without anyone having to remember.
 - **End of day:** you get a short report on enquiries, conversions and what needs your attention.
 
-For example, an enquiry that arrives at 11pm gets a reply within minutes, the right questions are asked, and the details are waiting in tomorrow's summary.
+For example, an enquiry that arrives at 11pm can be answered straight away, with the right questions asked and the details waiting in tomorrow's summary.
 
 We build this inside the systems you already run on, such as your inbox, CRM, booking system or store. Your team stays in control of every decision that matters.
 

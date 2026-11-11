@@ -1,11 +1,16 @@
 Subject: Working products, not slide decks
-Preview: Why most AI tools stall after the demo, and what we built and tested instead.
+Preview: Why AI tools often stall after the demo, and what we built and tested instead.
 
 Hi {{first_name}},
 
 If you have tried an AI tool that never really worked, you are not alone.
 
-The model is rarely the problem. AI usually stalls because it cannot connect to the tools you use, your data is messier than any demo, real work is full of exceptions, or your team never came to trust it.
+The AI itself is rarely the problem. It usually stalls for one of four reasons:
+
+- it cannot connect to the tools you use
+- your data is messier than any demo
+- real work is full of exceptions
+- your team never came to trust it
 
 That is why our forward-deployed engineers work embedded with your team, inside your real systems and your real data, until the system is in daily use.
 
@@ -17,9 +22,9 @@ We also build and test our own products. Here is what we can show you today:
 
 These are our own products and working demos, not client results. For your business, the evidence comes from your Day 30 results review, measured against your own baseline.
 
-Every system we deploy keeps a person in charge of the decisions that matter. In clinics, anything clinical always goes to your staff.
+Every system we build keeps a person in charge of the decisions that matter. In clinics, anything clinical always goes to your staff.
 
-[See the products in action](https://averonlabs.example/30-day-deployment)
+[Book a discovery call](https://averonlabs.example/30-day-deployment)
 
 Kind regards,
 {{sender_name}}
