@@ -8,3 +8,8 @@ desktop.ini
 
 # Course assignment brief (kept private, never pushed)
 Email Studio Lab Assignment*.md
+
+# Secrets (API keys). Only .env.example is committed.
+.env
+.env.*
+!.env.example
