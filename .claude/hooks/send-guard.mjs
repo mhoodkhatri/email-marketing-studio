@@ -51,7 +51,7 @@ if (!CHECK_RECIPIENTS.has(action)) {
   process.exit(0);
 }
 
-const myEmail = (process.env.MY_EMAIL || process.env.OWNER_EMAIL || "")
+const myEmail = (process.env.MY_EMAIL || "")
   .trim()
   .toLowerCase();
 
