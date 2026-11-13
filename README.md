@@ -49,14 +49,83 @@ We never send email to real people from this studio.
 
 ## Setup
 
-1. Install [Claude Code](https://claude.com/claude-code) and [Node.js](https://nodejs.org/) 20.12 or newer.
-2. Clone this repository and open it in Claude Code. When asked, trust the project's plugin, hooks and MCP server.
-3. Add your own address as `MY_EMAIL` in `.claude/settings.local.json`, as shown above.
-4. Choose a mode for Resend:
-   - **Practice mode (default):** do nothing. With no API key, the launcher sends to a local test server at `http://localhost:4000`.
-   - **Live mode:** copy `.env.example` to `.env` and add a Resend API key with sending access. Without a verified domain, Resend only sends from `onboarding@resend.dev`, and only to your own Resend account address.
+### 1. Install the tools
 
-`.env` and `.claude/settings.local.json` are ignored by git, so your key and your address stay private.
+You need these on your computer:
+
+- [Git](https://git-scm.com/downloads)
+- [Node.js](https://nodejs.org/) 20.12 or newer
+- [Claude Code](https://claude.com/claude-code)
+
+Check that they are installed:
+
+```bash
+git --version
+node --version
+claude --version
+```
+
+### 2. Clone the repository
+
+```bash
+git clone https://github.com/mhoodkhatri/email-marketing-studio.git
+cd email-marketing-studio
+```
+
+### 3. Add your own email address
+
+Create `.claude/settings.local.json` with your address. This is the only address, apart from `@resend.dev` test addresses, that the send guard lets through.
+
+```json
+{
+  "env": {
+    "MY_EMAIL": "you@example.com"
+  }
+}
+```
+
+### 4. Choose a mode for Resend
+
+**Practice mode (default):** do nothing. With no API key, the launcher sends to a local test server at `http://localhost:4000`.
+
+**Live mode:** copy the example settings file:
+
+```bash
+cp .env.example .env
+```
+
+Then open `.env` and fill it in:
+
+```bash
+RESEND_API_KEY=re_your_key_here
+RESEND_BASE_URL=https://api.resend.com
+SENDER_EMAIL_ADDRESS=onboarding@resend.dev
+```
+
+- Create the key at [resend.com](https://resend.com) under **API Keys**. Give it **Sending access** only.
+- Sign up to Resend with the same address as your `MY_EMAIL`. Without a verified domain, Resend only sends from `onboarding@resend.dev`, and only to your own account address.
+
+### 5. Start Claude Code
+
+From inside the project folder:
+
+```bash
+claude
+```
+
+When asked, trust the project's plugin, hooks and MCP server. To check that Resend is connected, type `/mcp` and look for `resend`.
+
+### 6. Send a test email
+
+Ask Claude something like:
+
+> Send email 01 from the 30-day-deployment-launch campaign to my own email, the MY_EMAIL value.
+
+The send guard checks the address before anything is sent.
+
+### Keep your secrets private
+
+`.env` and `.claude/settings.local.json` are ignored by git. Never commit them, and never paste your API key into an email or a campaign file.
 
 ## Placeholders
 
